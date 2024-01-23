@@ -6,6 +6,7 @@ split=int(input('how many people to split bill with? '))
 tipperperson= round((Total_Bill/split) * (percentage/100 * 1),2)
 split_person=Total_Bill/split
 Finalamount=tipperperson + split_person
+print('Each person should tip:',tipperperson)
 print('Each person should pay with tip:', Finalamount)
 
 #Each person should pay (150.00 / 5) * 1.12 = 33.6
